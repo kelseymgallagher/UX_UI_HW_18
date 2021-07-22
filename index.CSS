@@ -14,7 +14,8 @@ p{
 
 nav{
     display:flex; 
-    justify-content:space-between;
+    justify-content:flex-end;
+    justify-content:space-evenly
 }
 
 .projectContainer{
@@ -57,22 +58,3 @@ nav{
     flex-direction: column;
 }
 
-@media only screen and (max-width: 600px){
-    body {
-      background-color: orange;
-      flex-direction: column;
-      width: 100%;
-    }
-
-    #categoryGrid{
-        margin: 0px 5%;
-        display: grid;
-        grid-template-rows: 300px 300px 300px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-        "projectSections"
-        "projectContanier"
-        "aboutMe"
-        "aboutKelsey"
-        "letWork"
-    }
